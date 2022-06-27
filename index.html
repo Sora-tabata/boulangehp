@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta property='og:type' content='website'>
+  <meta property='og:title' content='WebデザイナーTARO YAMADA ポートフォリオ'>
+  <meta property='og:url' content='URLが入る'>
+  <meta property='og:description' content='TARO YAMADAのポートフォリオサイトです。'>
+  <meta property="og:image" content="img/ogp.png">
+  <meta name="description" content="TARO YAMADAのポートフォリオサイトです" />
+  <title>SORA TABATA GASを用いた発注システム構築の記録</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+  <link href="css/ress.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" href="img/favicon.ico" />
+  <link rel=”canonical” href=”URLが入る” />
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <!-- header -->
+    <header class="header ">
+      <div class="container">
+        <h1 class="header-logo">
+          <a href=".">SORA TABATA</a>
+        </h1>
+        <nav class="gnav">
+          <ul class="gnav-list">
+            <li class="gnav-item"><a href="#about">ABOUT</a></li>
+            <li class="gnav-item"><a href="#contribution">CONTRIBUTION</a></li>
+            <li class="gnav-item"><a href="#constitution">CONSTITUTION</a></li>
+            <li class="gnav-item"><a href="#script">SCRIPT</a></li>
+            <li class="gnav-item"><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- /header -->
+
+    <main class="content">
+
+      <!-- mv -->
+      <div class="mv">
+        <div class="mv-container">
+          <p class="mv-title">GASを用いた発注システム構築の記録</p>
+          <p class="mv-subtitle">SORA TABATA</p>
+          <p class="mv-text">
+            ユーザーとお客様が心から満足できる<br class="sp-only">サイトをお作りいたします。<br>
+            デザインとコーディングは<br class="sp-only">おまかせください。<br>
+          </p>
+        </div>
+      </div>
+      <!-- /mv -->
+
+
+      <!-- about -->
+      <section class="about section" id="about">
+        <div class="container">
+          <h2 class="title">ABOUT</h2>
+          <div class="profile">
+            <p class="profile-img">
+              <img src="img/boulange-logo.png" alt="">
+            </p>
+            <div class="profile-body">
+              <p>
+                私は，昨年2021年9月に<a href="https://www.baycrews.co.jp/">株式会社FLAVORWORKS</a> BAKERY部門の<a href="https://www.flavorworks.co.jp/brand/boulange.html">BOUL'ANGE</a>東京ドーム店にオープニングスタッフとして採用され，
+                パンの製造・販売だけでなく，商品のシステム発注を自動化するシステムを一人で構築し，新店舗立ち上げと市場の拡大，
+                さらには売上の向上に大きく貢献した．<br>
+                オープニング当初は，手作業による発注に依存しており，社員の残業の増加・業務の効率化が喫緊の課題であった．私は，それまで独学で身につけていたJavaScriptの知識でこの業務を自動化できると考え，上司やエリアマネージャーとも開発会議を重ね，オープン後２ヶ月でシステムを構築することに成功した．
+                今現在では，本システムを使用している店舗が，7店舗まで広がっており，結果的には汎用性のあるシステムを構築することができた．
+                本システムは，BAKERY部門トップのsupervisorによって承認され今現在も実際の現場で使われている．本ポートフォリオでは，GAS(google apps script)によって構築した本発注システムについて開発記録とその内部構造について説明する．<br>
+                <br>本ポートフォリオ内においては，私と株式会社FLAVORWORKS間の契約により守秘義務が発生している箇所が存在する．そのような箇所については黒塗りもしくはモザイク処理をおこなっており，使用している画像等に一部加工していることを了承願いたい．さらにこのポートフォリオの内容については，
+                東京ドーム店製造チーフおよび店長に承認を受けており，ポートフォリオのため快く情報提供の許可をしてくださったお二方に心から感謝する．
+              </p>
+              <p>
+                
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /about -->
+      <!-- skill -->
+      <section class="skill section" id="contribution">
+        <div class="container">
+          <h2 class="title">CONTRIBUTION</h2>
+          <div class="skill-list">
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icon_skill.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">手作業による発注のミスの撲滅</h3>
+                <p class="skill-text">
+                  オープニング当初，商品の発注は店舗の店長→製造チーフというフローで手作業（毎週excelファイルを提出）であった．当初，製造室は2店舗分の卸をしており，
+                  製造室にとってはまとめて製造し朝に出荷しなければいけないため，2店舗分のオーダーを手作業で管理することによる人為的ミスが多発していた．<br>
+                本システムを開発したことにより，手計算がなくなり，商品の発注ミスおよび卸先への納品書ミスなどの人為的ミスが文字通り0になった．</p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icon_skill.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">自動化による無駄な業務削減・残業時間の減少</h3>
+                <p class="skill-text">
+                  オープニング当初は2店舗の卸をしていたが，間もなく当製造室の製造capacityが大きいこともあり，一ヶ月後には3店舗に卸先が拡大した．商品数にして200を優に超えるため，
+                  それまでの手作業による発注管理が追いつかなくなり，ほとんどの社員が定時に帰れない状況となっていた．本システム開発によって，それまで数時間かかっていた作業が数十秒に短縮され，
+                社員のワークライフバランスに大きく貢献した．</p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icon_skill.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">製造数の正確な記録による売上分析精度の上昇</h3>
+                <p class="skill-text">
+                  店長から製造室へのオーダー = 卸製造数が理想であるが，実際には製造ロスが含まれるためにオーダー通りの数とはならない．
+                  この数を本システムによって正確に記録することで実際に店舗に卸した数を正確記録でき，売上分析の正確性・信頼性が向上した．</p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icon_skill.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">市場の拡大</h3>
+                <p class="skill-text">
+                  上記のような本システムによる業務の削減や，社員に仕事時間の余剰が生まれたことによるさらなるcapacityの増加に伴い，新店舗への卸しが容易となった．オープンから4ヶ月後にはさらに3店舗の卸しが始まり，結果的に卸製造数は5倍となった．</p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icon_skill.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">売上高向上</h3>
+                <p class="skill-text">
+                  上記の市場の拡大に伴って，当然のことながら売上高が向上した．結果的に全国に14店舗ある系列店の中で，1日あたりの卸売額が最も大きくなった．</p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icon_skill.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">フードロスの削減</h3>
+                <p class="skill-text">
+                  正確に発注数や製造数，さらには製造するための材料の量を記録できることで，フードロスの削減に貢献した．SDGsの枠組みで店舗ごとにロス率目標が定められており，本システム導入の店舗は目標達成はもちろんのこと，極めて低い数値となった．</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /skill -->
+
+      <!-- works -->
+      <section class="works section" id="constitution">
+        <div class="container">
+          <h2 class="title">Constitution</h2>
+          <div class="works-list">
+            <a class="works-item" href="ordersheet.html">
+              <div class="works-img"><img src="img/works-sample-thumb.jpg" alt="" /></div>
+              <p class="works-name">作品名が入る</p>
+              <p class="works-info">Design / Coding(Responsive)</p>
+            </a>
+            <a class="works-item" href="works-template.html">
+              <div class="works-img"><img src="img/works-dummy-thumb.jpg" alt="" /></div>
+              <p class="works-name">作品名が入る</p>
+              <p class="works-info">Design / Coding(Responsive) / WordPress</p>
+            </a>
+            <a class="works-item" href="works-template.html">
+              <div class="works-img"><img src="img/works-dummy-thumb.jpg" alt="" /></div>
+              <p class="works-name">作品名が入る</p>
+              <p class="works-info">Design</p>
+            </a>
+            <a class="works-item" href="works-template.html">
+              <div class="works-img"><img src="img/works-dummy-thumb.jpg" alt="" /></div>
+              <p class="works-name">作品名が入る</p>
+              <p class="works-info">Banner Design</p>
+            </a>
+            <a class="works-item" href="works-template.html">
+              <div class="works-img"><img src="img/works-dummy-thumb.jpg" alt="" /></div>
+              <p class="works-name">作品名が入る</p>
+              <p class="works-info">Banner Design</p>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- /works -->
+
+      <!-- works -->
+      <section class="works section" id="script">
+        <div class="container">
+          <h2 class="title">Script files</h2>
+          <div class="works-list">
+            <a class="works-item" href="ordersheet.html">
+              <div class="works-img"><img src="img/works-sample-thumb.jpg" alt="" /></div>
+              <p class="works-name">作品名が入る</p>
+              <p class="works-info">Design / Coding(Responsive)</p>
+            </a>
+            <a class="works-item" href="works-template.html">
+              <div class="works-img"><img src="img/works-dummy-thumb.jpg" alt="" /></div>
+              <p class="works-name">作品名が入る</p>
+              <p class="works-info">Design / Coding(Responsive) / WordPress</p>
+            </a>
+            <a class="works-item" href="works-template.html">
+              <div class="works-img"><img src="img/works-dummy-thumb.jpg" alt="" /></div>
+              <p class="works-name">作品名が入る</p>
+              <p class="works-info">Design</p>
+            </a>
+            <a class="works-item" href="works-template.html">
+              <div class="works-img"><img src="img/works-dummy-thumb.jpg" alt="" /></div>
+              <p class="works-name">作品名が入る</p>
+              <p class="works-info">Banner Design</p>
+            </a>
+            <a class="works-item" href="works-template.html">
+              <div class="works-img"><img src="img/works-dummy-thumb.jpg" alt="" /></div>
+              <p class="works-name">作品名が入る</p>
+              <p class="works-info">Banner Design</p>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- /works -->
+
+
+
+
+      <!-- contact -->
+      <section class="contact section" id="contact">
+        <div class="container">
+          <h2 class="title">CONTACT</h2>
+          <p class="lead">
+            お問い合わせは、<br class="sp-only">SNSかメールにてお願いいたします。
+          </p>
+          <div class="contact-list">
+            <a class="contact-item" href="https://twitter.com/" target="_blank" rel="noopener">Twitter</a>
+            <a class="contact-item" href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a>
+            <span class="contact-item">xxxxxx@gmail.com</span>
+          </div>
+        </div>
+      </section>
+      <!-- /contact -->
+      <div class="page-top" id="js-page-top">
+        <span class="material-icons-outlined">expand_less</span>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="copyright">&copy;2022 S.Tabata</div>
+    </footer>
+    <!-- /footer -->
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type='text/javascript' src="js/script.js"></script>
+</body>
+</html>
