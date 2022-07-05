@@ -4,6 +4,35 @@ body {
   letter-spacing: .05em;
   color: #333;
 }
+.btn {
+  background-color: #1492AF;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .2);
+  color: #fff;
+  display: inline-block;
+  font-weight: 700;
+  padding: 1.25rem 4rem;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.btn:hover {
+  box-shadow: 0px 12px 24px rgba(20, 146, 175, 0.38);
+  transform: translateY(-4px);
+}
+
+.image_mouseover_1 {
+  overflow: visible;
+  width: 100%;
+  height: 100%;
+  }
+  .image_mouseover_1 img {
+  display: block;
+  transition-duration: 0.5s;
+  }
+  .image_mouseover_1 img:hover {
+  transform: scale(1.2,1.2);
+  transition-duration: 0.5s;
+  }
 
 a {
   transition: opacity .3s;
@@ -181,14 +210,22 @@ img {
 }
 
 .works-item {
+  overflow: visible;
   width: 31.74603%;
   margin-right: 1.58730%;
   margin-bottom: 40px;
   color: #333;
 }
 
+.works-item img{
+  display: block;
+  transition-duration: 0.5s;
+}
+
 .works-item:hover {
-  opacity: .9;
+  transform: scale(1.2,1.2);
+  transition-duration: 0.5s;
+  opacity: 0.6;
 }
 
 .works-item:nth-of-type(3n) {
@@ -221,11 +258,22 @@ img {
 }
 
 .skill-item {
+  overflow: visible;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
   width: 48%;
   margin-bottom: 50px;
+}
+.skill-item img{
+  display: block;
+  transition-duration: 0.5s;
+}
+
+.skill-item:hover {
+  transform: scale(1.2,1.2);
+  transition-duration: 0.5s;
+  opacity: 0.6;
 }
 
 .skill-img {
@@ -548,3 +596,4 @@ img {
     margin-bottom: 20px;
   }
 }
+
